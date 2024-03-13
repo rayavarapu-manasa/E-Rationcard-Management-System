@@ -1,0 +1,55 @@
+/* Signup.css */
+.register-container {
+    max-width: 600px;
+    margin:150px 380px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .register-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .register-form input[type="text"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  .submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color:#333;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .register-form p {
+    margin-top: 15px;
+  }
+  
+  .register-form p a {
+    color: #007bff;
+  }
+  

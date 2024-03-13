@@ -1,0 +1,186 @@
+
+.nav {
+    background-color: #333; /* Set background color for the navigation */
+  }
+  
+  nav {
+    display: flex; /* Use flexbox for navigation layout */
+    justify-content: space-between; /* Add space between elements */
+    padding: 10px; /* Add padding for better spacing */
+  }
+  
+  .leftside {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .leftside li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+    color: #fff; /* Set text color */
+  }
+  
+  .rightside {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .rightside li {
+    display: inline-block; /* Display list items horizontally */
+    color: #fff; /* Set text color */
+  }
+  li > a {
+    /* Your styles here */
+    color:white ; /* Example color */
+    text-decoration: none; /* Remove underline */
+}
+
+li > a:hover {
+    /* Styles on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+  
+
+  .main-content {
+    background-color: #f4f4f4;
+    padding: 20px; 
+    height:420px;
+    
+   
+  }
+  .ration{
+    background-color: #ccc;
+    height:40px;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 150px;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  .searchbar {
+    margin-bottom: 20px;
+    float: left; 
+  }
+  
+  
+  .searchbar input[type='text'] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .add-bttn {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end; /* Adds space below the button */
+}
+
+.add-bttn button {
+    padding: 10px 20px; /* Adds padding to the button */
+    background-color: #333; /* Sets the background color */
+    color: white; /* Sets the text color */
+    border: none; /* Removes the border */
+    border-radius: 5px; /* Adds rounded corners */
+    cursor: pointer; /* Changes cursor on hover */
+    transition: background-color 0.3s ease;
+    font-size: 15px; /* Adds smooth transition */
+}
+
+.add-bttn button:hover {
+    background-color: #555454; /* Changes background color on hover */
+}
+
+  .customers {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+  }
+  
+  .customers th,
+  .customers td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .customers th {
+    background-color: #333;
+    color: white;
+    border: white;
+    border-radius: 2px;
+  }
+  
+  
+  
+  /* Addpage.css */
+
+form {
+  width: 500px;
+  margin:30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="dateofbirth"],
+input[type="contact"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"],[type="close"] {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px; /* Adds margin below each button */
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.form-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.add-form {
+  width: 300px; /* Adjust the width as needed */
+}
+
+.add-form input,
+.add-form button {
+  margin-bottom: 10px;
+}
+
+
+  
+  
